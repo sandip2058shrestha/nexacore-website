@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services — NexaCore Technology Solutions</title>
+  <meta name="description" content="Explore NexaCore's full range of technology services including web development, cloud architecture, digital strategy, and UI/UX design." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <header class="site-header" role="banner">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+      <a href="index.html" class="logo" aria-label="NexaCore Home">
+        <span class="logo-mark" aria-hidden="true">⬡</span>
+        <span class="logo-text">NexaCore</span>
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation menu">
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="hamburger" aria-hidden="true"></span>
+        <span class="hamburger" aria-hidden="true"></span>
+      </button>
+      <ul class="nav-links" id="navMenu" role="list">
+        <li><a href="index.html" class="nav-link">Home</a></li>
+        <li><a href="services.html" class="nav-link active" aria-current="page">Services</a></li>
+        <li><a href="contact.html" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- PAGE HERO -->
+    <section class="page-hero" aria-labelledby="page-hero-heading">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-lines"></div>
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+      </div>
+      <div class="container">
+        <div class="page-hero-content">
+          <span class="section-tag">Our Services</span>
+          <h1 id="page-hero-heading">What We Build<br/><span class="text-accent">For You</span></h1>
+          <p>From initial concept to production deployment, our full-service capability covers every layer of the modern technology stack.</p>
+          <figure class="page-hero-figure">
+            <img
+              src="images/services-overview.svg"
+              alt="Overview of NexaCore's four core services: Web Development showing a browser interface, Cloud Architecture showing server connections, Digital Strategy showing a performance graph, and UI/UX Design showing a layout wireframe"
+              width="600"
+              height="380"
+              loading="eager"
+            />
+            <figcaption class="sr-only">NexaCore services: Web Development, Cloud Architecture, Digital Strategy, and UI/UX Design</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE DETAIL: WEB DEVELOPMENT -->
+    <section class="service-detail" id="web-dev" aria-labelledby="webdev-heading">
+      <div class="container service-detail-inner">
+        <div class="service-detail-text">
+          <span class="service-number" aria-hidden="true">01</span>
+          <h2 id="webdev-heading">Web Development</h2>
+          <p class="service-lead">High-performance web applications crafted with semantic HTML5, modern CSS, and clean JavaScript — no bloat, no shortcuts.</p>
+          <p>We build everything from marketing sites to complex data-intensive web apps. Every project gets rigorous performance testing, WCAG 2.1 accessibility auditing, and cross-browser QA before it leaves our hands.</p>
+          <ul class="feature-list" role="list" aria-label="Web development features">
+            <li>Semantic, accessible HTML5 markup</li>
+            <li>CSS3 with Flexbox & Grid layouts</li>
+            <li>Progressive Web App (PWA) capability</li>
+            <li>Core Web Vitals optimisation</li>
+            <li>Headless CMS integration</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Discuss Your Project</a>
+        </div>
+        <div class="service-detail-visual" aria-hidden="true">
+          <div class="code-window">
+            <div class="code-titlebar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="code-filename">index.html</span>
+            </div>
+            <pre class="code-block"><code><span class="token-tag">&lt;main</span> <span class="token-attr">role</span><span class="token-eq">=</span><span class="token-val">"main"</span><span class="token-tag">&gt;</span>
+  <span class="token-tag">&lt;section</span>
+    <span class="token-attr">aria-labelledby</span><span class="token-eq">=</span><span class="token-val">"hero"</span><span class="token-tag">&gt;</span>
+    <span class="token-tag">&lt;h1</span> <span class="token-attr">id</span><span class="token-eq">=</span><span class="token-val">"hero"</span><span class="token-tag">&gt;</span>
+      Build What
+      Comes Next
+    <span class="token-tag">&lt;/h1&gt;</span>
+  <span class="token-tag">&lt;/section&gt;</span>
+<span class="token-tag">&lt;/main&gt;</span></code></pre>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE DETAIL: CLOUD -->
+    <section class="service-detail alt" id="cloud" aria-labelledby="cloud-heading">
+      <div class="container service-detail-inner reverse">
+        <div class="service-detail-text">
+          <span class="service-number" aria-hidden="true">02</span>
+          <h2 id="cloud-heading">Cloud Architecture</h2>
+          <p class="service-lead">Resilient, secure, and cost-optimised cloud infrastructure tailored to your workload — not a generic template.</p>
+          <p>We work across AWS, Azure, and GCP to design infrastructure that matches your actual usage patterns. Whether you need serverless functions, containerised microservices, or a hybrid multi-cloud strategy, we architect for uptime and efficiency.</p>
+          <ul class="feature-list" role="list" aria-label="Cloud architecture features">
+            <li>Multi-cloud and hybrid strategies</li>
+            <li>Serverless & container (Docker/K8s)</li>
+            <li>Infrastructure as Code (Terraform)</li>
+            <li>DevOps pipelines & CI/CD</li>
+            <li>Security audits & compliance</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Discuss Your Project</a>
+        </div>
+        <div class="service-detail-visual" aria-hidden="true">
+          <div class="cloud-diagram">
+            <div class="cloud-node central">
+              <span>Load<br/>Balancer</span>
+            </div>
+            <div class="cloud-node app1"><span>App<br/>Server 1</span></div>
+            <div class="cloud-node app2"><span>App<br/>Server 2</span></div>
+            <div class="cloud-node db"><span>Database<br/>Cluster</span></div>
+            <svg class="cloud-lines" aria-hidden="true" viewBox="0 0 300 220" fill="none">
+              <line x1="150" y1="70" x2="70" y2="130" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.6"/>
+              <line x1="150" y1="70" x2="230" y2="130" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.6"/>
+              <line x1="150" y1="70" x2="150" y2="160" stroke="#00e5ff" stroke-width="1.5" stroke-dasharray="6 3" opacity="0.6"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE DETAIL: STRATEGY -->
+    <section class="service-detail" id="strategy" aria-labelledby="strategy-heading">
+      <div class="container service-detail-inner">
+        <div class="service-detail-text">
+          <span class="service-number" aria-hidden="true">03</span>
+          <h2 id="strategy-heading">Digital Strategy</h2>
+          <p class="service-lead">Technology investment guided by business outcomes — not technology for its own sake.</p>
+          <p>Our strategists work at the intersection of technology, people, and process. We audit your existing stack, map it to your business objectives, and produce a clear, costed roadmap with measurable milestones.</p>
+          <ul class="feature-list" role="list" aria-label="Digital strategy features">
+            <li>Technology audits & maturity assessments</li>
+            <li>Vendor evaluation & selection</li>
+            <li>Digital roadmap development</li>
+            <li>Change management consulting</li>
+            <li>OKR and KPI framework design</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Discuss Your Project</a>
+        </div>
+        <div class="service-detail-visual" aria-hidden="true">
+          <div class="roadmap-visual">
+            <div class="roadmap-item active">
+              <div class="roadmap-dot"></div>
+              <div class="roadmap-content">
+                <strong>Q1</strong> Discovery & Audit
+              </div>
+            </div>
+            <div class="roadmap-item">
+              <div class="roadmap-dot"></div>
+              <div class="roadmap-content">
+                <strong>Q2</strong> Strategy Design
+              </div>
+            </div>
+            <div class="roadmap-item">
+              <div class="roadmap-dot"></div>
+              <div class="roadmap-content">
+                <strong>Q3</strong> Pilot & Validate
+              </div>
+            </div>
+            <div class="roadmap-item">
+              <div class="roadmap-dot"></div>
+              <div class="roadmap-content">
+                <strong>Q4</strong> Scale & Optimise
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICE DETAIL: DESIGN -->
+    <section class="service-detail alt" id="design" aria-labelledby="design-heading">
+      <div class="container service-detail-inner reverse">
+        <div class="service-detail-text">
+          <span class="service-number" aria-hidden="true">04</span>
+          <h2 id="design-heading">UI/UX Design</h2>
+          <p class="service-lead">Design systems and interfaces built for real humans — with accessibility, usability, and brand cohesion at their core.</p>
+          <p>We conduct user research, create information architectures, and build component-based design systems that scale across products. Every design decision is backed by data and validated with real users before development begins.</p>
+          <ul class="feature-list" role="list" aria-label="UI/UX design features">
+            <li>User research & journey mapping</li>
+            <li>Wireframing & interactive prototypes</li>
+            <li>Design system creation</li>
+            <li>WCAG 2.1 AA accessibility compliance</li>
+            <li>Usability testing & iteration</li>
+          </ul>
+          <a href="contact.html" class="btn btn-primary">Discuss Your Project</a>
+        </div>
+        <div class="service-detail-visual" aria-hidden="true">
+          <div class="design-preview">
+            <div class="preview-bar">
+              <div class="preview-dot r"></div><div class="preview-dot y"></div><div class="preview-dot g"></div>
+            </div>
+            <div class="preview-content">
+              <div class="preview-header"></div>
+              <div class="preview-nav">
+                <div class="pn-item active"></div>
+                <div class="pn-item"></div>
+                <div class="pn-item"></div>
+              </div>
+              <div class="preview-hero"></div>
+              <div class="preview-cards">
+                <div class="preview-card"></div>
+                <div class="preview-card"></div>
+                <div class="preview-card"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION -->
+    <section class="faq-section" aria-labelledby="faq-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">FAQ</span>
+          <h2 id="faq-heading">Common Questions</h2>
+        </div>
+        <div class="faq-list" id="faqList">
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-1" id="faq-btn-1">
+              How long does a typical web project take?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-1" role="region" aria-labelledby="faq-btn-1" hidden>
+              <p>Most web projects run between 6 and 16 weeks depending on scope. A focused marketing site can launch in under 6 weeks; complex web applications typically take 12–20 weeks with multiple sprint cycles. We provide a detailed timeline during discovery.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-2" id="faq-btn-2">
+              Do you work with startups or only enterprise clients?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-2" role="region" aria-labelledby="faq-btn-2" hidden>
+              <p>Both. We work with early-stage startups who need their first product as well as enterprise teams running complex digital transformation programmes. Our engagement models are flexible to match your stage and budget.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-3" id="faq-btn-3">
+              What does post-launch support look like?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-3" role="region" aria-labelledby="faq-btn-3" hidden>
+              <p>We offer tiered retainer packages covering monitoring, bug fixes, performance tuning, and feature development. Most clients opt for a 3-month stabilisation retainer after launch, then move to a lighter ongoing support model.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-4" id="faq-btn-4">
+              Can you work within our existing tech stack?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-4" role="region" aria-labelledby="faq-btn-4" hidden>
+              <p>Absolutely. We assess your existing stack during discovery and work within it where sensible. If we recommend changes, we explain the rationale clearly and present the trade-offs — the final decision is always yours.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-question" aria-expanded="false" aria-controls="faq-5" id="faq-btn-5">
+              How do you ensure accessibility compliance?
+              <span class="faq-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="faq-answer" id="faq-5" role="region" aria-labelledby="faq-btn-5" hidden>
+              <p>Accessibility is built into our process from the start, not bolted on at the end. We follow WCAG 2.1 AA guidelines, run automated audits with axe-core, conduct screen-reader testing, and include keyboard navigation testing as part of every QA cycle.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA BANNER -->
+    <section class="cta-banner" aria-labelledby="services-cta-heading">
+      <div class="container">
+        <h2 id="services-cta-heading">Not Sure Which Service<br/>Is Right for You?</h2>
+        <p>Book a free 30-minute consultation and we'll help you figure it out.</p>
+        <a href="contact.html" class="btn btn-primary btn-lg">Book a Free Call</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="index.html" class="logo" aria-label="NexaCore Home">
+          <span class="logo-mark" aria-hidden="true">⬡</span>
+          <span class="logo-text">NexaCore</span>
+        </a>
+        <p>Engineering tomorrow's technology, today.</p>
+      </div>
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <h3>Pages</h3>
+        <ul role="list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="footer-contact">
+        <h3>Contact</h3>
+        <address>
+          <p><a href="mailto:hello@nexacore.io">hello@nexacore.io</a></p>
+          <p><a href="tel:+61290001234">+61 2 9000 1234</a></p>
+          <p>Sydney, Australia</p>
+        </address>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© <span class="footer-year"></span> NexaCore. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top of page" hidden>↑</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
